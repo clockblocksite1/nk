@@ -7,7 +7,7 @@ const GetStarted = () => {
     <section className='g-wrapper'>
         <div className='paddings innnerWidth g-container'>
             <div className='flexColCenter inner-container'>
-                <span className='primaryText'>GetStarted with JoeStates</span>
+                <span className='primaryText'>Get Started with JoeStates</span>
                 <span className='secondaryText'>
                     Subscribe and find super attractive price quotes from JoeStates
                     <br/>
@@ -15,7 +15,7 @@ const GetStarted = () => {
                     </span>
 
                     <button className='button'>
-                        <a href='mailtto:doublegomosh00@gmail.com'>Get Startd</a>
+                        <a href='mailto:doublegomosh00@gmail.com'>Get Started</a>
                     </button>
                 
             </div>
