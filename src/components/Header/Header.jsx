@@ -5,7 +5,7 @@ const Header = () => {
   const[menuopened,setMenuOpened] =useState(flase)
 
   const getMenuStyles = (menuOpened ) => {
-    if (document.documentElement.clientwidth <= 800)
+    if (document.documentElement.clientWidth <= 800)
     {
       return {right: !menuOpened && "-100"}
     }
@@ -33,7 +33,7 @@ const Header = () => {
       </div>
 
        <div className='menu-icon' onClick={()=>setMenuOpened((prev)=>!prev)}>
-         <BiMenuAltRight size=(30px)/>
+         <BiMenuAltRight size={30}/>
        </div>
     
        </div>
